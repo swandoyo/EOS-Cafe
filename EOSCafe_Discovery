@@ -19,21 +19,21 @@ social_keybase: https://keybase.io/eoscalgary   # Potentially used for
                                                 # provide this one.
 
 eosio_account_name: eos.cafe  # The account you go by
-eosio_p2p: eoscafe.eoscalgary.io:9900  # This could be hidden until
+eosio_p2p: eoscal.wxrepository.ca:9900  # This could be hidden until
                                      # after launch.  You will have it
                                      # in your local configuration.
-eosio_http: http://eoscafe.eoscalgary.io:8800
-eosio_https: https://eoscafe.eoscalgary.io
+eosio_http: http://eoscal.wxrepository.ca:8800
+eosio_https: 
 eosio_initial_authority:  # To be injected in a newly created network where you participate.
   owner:
     threshold: 1
     keys:
-    - public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
+    - public_key: EOS5ddLFLXzktkR4wn4Ndb2hSdL1EXiFQzvSByJMQ1ijzGyu9SEaP
       weight: 1
   active:
     threshold: 1
     keys:
-    - public_key: EOS8bQz8ve6DpfVTaPXPotrjW3J2h6uToW4g2uV9rXfMYSwicawma
+    - public_key: EOS5wZDHiMZxj9ZZ4zamTeXUq4EixCinvxLcCCHeLca5ePWPFKFay
       weight: 1
   recovery:
     threshold: 1
@@ -47,12 +47,11 @@ eosio_initial_authority:  # To be injected in a newly created network where you 
 # block producer's signing key.  It is not used elsewhere. If you
 # don't think you'll ever be an Appointed Block Producer, you can
 # ignore this line.
-eosio_appointed_block_producer_signing_key: EOS6MRyAjQq8ud7hVNYcfnVPJqcVpscN5So8BhtHuGYqET5GDW5CV
 
-website: "https://example.com"
-introduction_post_url: "https://steemit.com/something/"  # Like your BP candidacy proposal.
-
-organization_name: EOS Example
+eosio_appointed_block_producer_signing_key: EOS5wZDHiMZxj9ZZ4zamTeXUq4EixCinvxLcCCHeLca5ePWPFKFay
+website: "https://eos.cafe"
+introduction_post_url: "https://steemit.com/eos/@eoscafe/we-are-eos-cafe-a-global-block-producer-candidate"  # Like your BP candidacy proposal.
+organization_name: "EOS Calgary"
 organization_tagline: The example in the EOS space  # For websites who
                                                     # want to feed
                                                     # from the graph
